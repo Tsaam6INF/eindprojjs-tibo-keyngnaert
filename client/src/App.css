@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #cc0000;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.video-list {
+  display: grid;
+  gap: 20px;
+}
+
+.video-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+video {
+  width: 100%;
+  max-height: 300px;
+}
